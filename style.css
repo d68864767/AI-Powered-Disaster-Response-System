@@ -1,0 +1,75 @@
+```css
+/* Reset some default browser styles */
+body, h1, h2, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#data-table, #resource-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table td, #data-table th, #resource-table td, #resource-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#data-table tr:nth-child(even), #resource-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#data-table th, #resource-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+```
